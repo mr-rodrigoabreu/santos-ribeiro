@@ -1,0 +1,192 @@
+@import url(https://db.onlinewebfonts.com/c/2568e173df3a278bff48d9926aa656f6?family=Calisto+MT);
+
+* { 
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Calisto MT",serif;
+    color: white;
+    list-style: none;
+    line-height: 1.5;
+}
+
+a:link {
+    text-decoration: none;
+  }
+  
+  a:visited {
+    text-decoration: none;
+  }
+  
+  a:hover {
+    text-decoration: none;
+  }
+  
+  a:active {
+    text-decoration: none;
+  }
+
+html {
+    background-color: rgba(0, 0, 0, 0.05);
+    -ms-overflow-style: none;  /* Internet Explorer and Edge */
+    scrollbar-width: none;  /* Firefox */
+}
+
+::-webkit-scrollbar { 
+    display: none;  /* Safari and Chrome */
+}
+
+body {
+    background-color: black;
+    max-width: 1280px;
+    margin: auto
+}
+
+header {
+    background-image: url("/images/estaiada.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 500px;
+    text-align: center;
+}
+
+header div {
+    display: flex;
+    gap: 10px;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+header nav {
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#logo {
+    margin-left: 15px;
+    height: 60px;
+    cursor: pointer;
+}
+
+#menuButton {
+    width: 20px;
+    margin-right: 15px;
+    cursor: pointer;
+}
+
+#menuList {
+    display: none;
+    text-align: end;
+    border-radius: 0 0 10px 10px;
+    margin-right: 15px;
+}
+
+#menuList.active {
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+
+}
+
+#menuList a {
+    line-height: 2;
+    font-size: 1.5em;
+}
+
+#hero {
+    margin-top: 50px;
+    width: 80%;
+}
+
+#article1  {
+    background-color: white;
+}
+
+#article1 h5 {
+    text-align: center;
+    padding: 15px;
+    color: #999999;
+}
+
+#article1 h1 {
+    padding: 15px;
+    text-align: center;
+    font-size: 2em;
+    color: black;
+    color: #daa520;
+
+}
+
+#article1 p {
+    padding: 15px;
+    text-align: justify;
+    color: black;
+}
+
+#article2  {
+    background-color: black;
+}
+
+#article2 h5 {
+    text-align: center;
+    padding: 15px;
+    color: #999999;
+
+}
+
+#article2 h1 {
+    padding: 15px;
+    text-align: center;
+    font-size: 2em;
+    padding: 15px;
+    color: #daa520;
+}
+
+#article2 p {
+    padding: 15px;
+    text-align: justify;
+}
+
+#article3  {
+    background-color: white;
+    display: block;
+    text-align: center;
+}
+
+#article3 h5 {
+    text-align: center;
+    padding: 15px;
+    color: #999999;
+}
+
+#article3 h1 {
+    padding: 30px;
+    font-size: 2em;
+    color: black;
+    color: #daa520;
+
+}
+
+#article3 p {
+    padding: 15px;
+    color: black;
+}
+
+#article3 div {
+    display: block;
+    text-align: center;
+}
+
+footer {
+    padding: 15px;
+    font-size: 0.75em;
+    text-align: center;
+    color: #daa520;
+}
+
+footer p{
+    color: #daa520;
+}
